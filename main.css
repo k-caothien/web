@@ -1,0 +1,60 @@
+/*
+  Kai Caothien (s08 Brainy bananas V2: Kai Caothien, Jeffrey Tan, Calvin Liu)
+  IntroCS pd05 sec08
+  HW05 -- Stuylin' (Add color, font, and details to html file)
+  2021-02-11
+*/
+
+/*
+structure of a CSS ruleset:
+
+SELECTOR { 0 or more DECLARATIONS }
+
+where each declaration is of the form
+
+PROPERTY : VALUE;
+
+Don't forget to add the semicolon after the value!
+ */
+
+/* this will style all h1 elements with color blue, font monarco, and font size 40 */
+h1 {
+    color: black;
+    font-family: Monaco;
+    font-size: 40px;
+     text-decoration: underline; /* underlines the h1 text */
+}
+
+/* this will style all h2 elements with color blue, font monaco, and size 29 */
+h2 {
+    color: blue;
+    font-size: 29px;
+    font-family: Monaco;
+}
+
+/* this will style all h3 elements with color blue, font monaco, and size 22 */
+h3 {
+    color: blue;
+    font-size: 22px;
+    font-family: Monaco;
+}
+
+/* this will style all p elements, most of the writing with color antiquewhite, font monaco, and size 18 */
+p {
+    font-family: Monaco;
+    font-size: 18px;
+    color: antiquewhite;
+}
+
+/* this will make the page background to burlywood */
+body {
+    background-color: burlywood; /* can also change it to black to make it look like darkmode */
+}
+
+/* this will make the li elements font monarco, size 18, and maintain a dotted box around them */
+li {
+    font-family: Monaco;
+    font-size: 18px;
+    border: 1px solid black; /* added a border to my table of contents and teammate links to make the table contents more visible */
+    color: saddlebrown;
+}
