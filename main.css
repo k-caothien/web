@@ -14,7 +14,7 @@ where each declaration is of the form
 
 PROPERTY : VALUE;
 
-Don't forget to add the semicolon after the value!
+Don't forget to add the semicolon after the value! Without semicolon the commands will not function correctly.
  */
 
 /* this will style all h1 elements with color blue, font monarco, and font size 40 */
